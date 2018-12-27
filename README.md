@@ -1,6 +1,6 @@
 # Graphql and marvel
 
-This is a simple example of usage Graphql 
+This is a simple example of usage Graphql with [marvel API](https://developer.marvel.com/)
 
 ## Installation
 
