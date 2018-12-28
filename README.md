@@ -23,13 +23,12 @@ Got to [graphgl-interface](http://localhost:4011/graphql)
 
 ### Request all characters
 ```python
-mutation {
-  updateCharacter(id: 1017100, input: {
-    favorite: true
-  }) {
+{
+  characters {
     id
-    favorite
     name
+    thumbnail
+    favorite
   }
 }
 ```
